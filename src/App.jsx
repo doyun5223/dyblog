@@ -16,7 +16,7 @@ function App() {
       })
       .then(() => setWait(true));
   };
-
+  //
   return (
     <div id="content">
       <button disabled={!wait} onClick={handleConfetti}>
